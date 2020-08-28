@@ -1,6 +1,7 @@
 #include <iostream>
+#include <App.h>
 
 auto main(int argc, char* argv[]) -> int {
-  std::cout << "Hello, World!" << std::endl;
+  uWS::App().run();
   return 0;
 }
